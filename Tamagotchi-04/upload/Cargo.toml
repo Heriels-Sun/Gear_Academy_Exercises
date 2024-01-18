@@ -1,0 +1,17 @@
+[package]
+name = "upload"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+gclient = { git = "https://github.com/gear-tech/gear", tag = "v1.0.2" }
+gear-core = { git = "https://github.com/gear-tech/gear", tag = "v1.0.2" }
+gear-wasm-builder = { git = "https://github.com/gear-tech/gear", tag = "v1.0.2" }
+sharded-fungible-token-io = { git = "https://github.com/gear-foundation/dapps", tag = "v1.0.2" }
+tokio = "1"
+
+# External binaries
+
+sharded-fungible-token = { git = "https://github.com/gear-foundation/dapps", tag = "v1.0.2" }
+sharded-fungible-token-logic = { git = "https://github.com/gear-foundation/dapps", tag = "v1.0.2" }
+sharded-fungible-token-storage = { git = "https://github.com/gear-foundation/dapps", tag = "v1.0.2" }
